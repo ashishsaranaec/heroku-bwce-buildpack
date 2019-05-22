@@ -100,7 +100,7 @@ checkThirdPartyInstallation()
 }
 
 export APPDIR=/app
-export BW_KEYSTORE_PATH=$HOME/keystore
+export BW_KEYSTORE_PATH=/app/keystore
 export MALLOC_ARENA_MAX=2
 export MALLOC_MMAP_THRESHOLD_=1024
 export MALLOC_TRIM_THRESHOLD_=1024
