@@ -387,7 +387,7 @@ else
 fi
 
 # move app into place
-rm -fr *
+# rm -fr *
 mkdir $APPDIR/tmp
 mv /tmp/$BW_PROFILE $APPDIR/tmp/pcf.substvar
 
