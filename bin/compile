@@ -359,6 +359,7 @@ if [[ ${BW_LOGLEVEL} ]]; then
 fi
 
 echo "In build directory : $BUILD_DIR "
+echo "Build Pack directory : $BUILD_PACK_DIR "
 
 profileFile=`ls | grep "substvar"`
 if [ -s ${profileFile} -a  $profileFile ]; then
