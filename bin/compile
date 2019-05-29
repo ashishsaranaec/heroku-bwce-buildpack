@@ -394,6 +394,9 @@ mv /tmp/$BW_PROFILE $APPDIR/tmp/pcf.substvar
 echo "Calling extract function "
 
 # extract BW installation from cache folder
+cd $BUILD_PACK_DIR/resources/cache/
+wget https://s3.us-east-2.amazonaws.com/bwce-runtime/bwce-runtime-2.4.3.zip
+cd $BUILD_DIR
 extract $BUILD_PACK_DIR/resources/cache/* > /dev/null
 mv /tmp/bwapp.ear tibco.home/bw*/*/bin/
 
